@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="BC API Demo">
+    <body>
+      <group id="body">
+        <trans-unit id="Query 2871367725 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Purchase API</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Query purchaseAPIMOR - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2056570552 - EnumValue 3844911025 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Canceled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum StatusMORAPI - EnumValue Canceled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2056570552 - EnumValue 2588201939 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Complete</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum StatusMORAPI - EnumValue Complete - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2056570552 - EnumValue 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum StatusMORAPI - EnumValue Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2056570552 - EnumValue 3481143665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum StatusMORAPI - EnumValue Pending - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2056570552 - EnumValue 832292014 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Superseded</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum StatusMORAPI - EnumValue Superseded - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Staging Purchaes Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 3792369418 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor who will deliver the goods or services. Each vendor has a unique number to help you track related documents. The number can come from a number series or be added manually.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Buy-from Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 3792369418 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Buy-from Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Buy-from Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 318613646 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Supplemental information to the integration status.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Details - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 318613646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Details</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Details - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 580412389 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the date when the related document was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Document Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 580412389 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Document Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>They type of purchase document.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 4085727052 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies when the purchase invoice is due for payment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Due Date - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 4085727052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 1016130111 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incrementing number used to sequence integrations.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field EntryNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 1016130111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field EntryNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 2161572060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the location where the items are to be placed when they are received. This field acts as the default location for new lines. You can update the location code for individual lines as needed.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Location Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 2161572060 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Location Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Location Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 513339096 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Indicates current integration progress.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Status - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 245426702 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Compared to the summation of Purchase Lines as a checksum.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Total - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 245426702 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 3961227134 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number of the original document you received from the vendor. You can require the document number for posting, or let it be optional. By default, it's required, so that this document references the original. Making document numbers optional removes a step from the posting process. For example, if you attach the original invoice as a PDF, you might not need to enter the document number. To specify whether document numbers are required, in the Purchases &amp; Payables Setup window, select or clear the Ext. Doc. No. Mandatory field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Vendor Invoice No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 3961227134 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Vendor Invoice No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 3001618318 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the vendor's reference.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Your Reference - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4062336413 - Field 3001618318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Your Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchHdrMORAPI - Field Your Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Staging Purch Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 3792369418 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the name of the vendor who delivered the items.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Buy-from Vendor No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 3792369418 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Buy-from Vendor No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Buy-from Vendor No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a description of the entry of the product to be purchased. To add a non-transactional text line, fill in the Description field only.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 47657272 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies information in addition to the description.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Description 2 - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 47657272 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Description 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 4187992892 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the cost of one unit of the selected item or resource.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Direct Unit Cost - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 4187992892 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Direct Unit Cost</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Direct Unit Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 486908828 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the document number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Document No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 2363328873 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the type of document that you are about to create.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Document Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 1016130111 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Auto-incrementing number to indicate sequential order of integrations.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field EntryNo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 1016130111 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field EntryNo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 3582421358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the net amount, excluding any invoice discount amount, that must be paid for products on the line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Line Amount - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 3582421358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Amount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Line Amount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 3320823955 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line's number.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Line No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of the involved entry or record, according to the specified number series.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 2202932243 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the order number this line is associated with.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Order No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 2202932243 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 2704404533 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the number of units of the item specified on the line.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Quantity - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 2704404533 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the line type.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 1920046521 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the unit of measure.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Unit of Measure - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 1920046521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 2385270358 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies how each unit of the item or resource is measured, such as in pieces or hours. By default, the value in the Base Unit of Measure field on the item or resource card is inserted.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Unit of Measure Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Table 4263863889 - Field 2385270358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unit of Measure Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table StagingPurchLnMORAPI - Field Unit of Measure Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3113048804 - Method 4293701997 - NamedType 303402693" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item is blocked due to the following reason: %1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit StagingPurchaseLineMethMORAPI - Method CheckItem - NamedType LblErrBlockedReason</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3294666682 - Method 2897221867 - NamedType 1900463450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This invoice has already been integrated%1.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit StagingPurchaseMethMORAPI - Method CheckIntegrated - NamedType LblErrAlreadyIntegrated</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3294666682 - Method 2246256157 - NamedType 1185678007" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Variance of %1 was found comparing the %2 from Total field of the Staging Purchase to %3 summed from the Purchase Lines.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit StagingPurchaseMethMORAPI - Method CheckLines - NamedType LblErrTotal</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3294666682 - Method 1608686094 - NamedType 3039246321" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor must have a blocked selection of either blank or Payment to process this purchase.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit StagingPurchaseMethMORAPI - Method CheckVendor - NamedType LblErrBlocked</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3294666682 - Method 1608686094 - NamedType 3190787156" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor lacks a required fields to process a Purchase.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit StagingPurchaseMethMORAPI - Method CheckVendor - NamedType LblErrSetup</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3294666682 - Method 2916465840 - NamedType 910807360" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 is not implemented.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit StagingPurchaseMethMORAPI - Method InsertPurchase - NamedType LblErrNotImplemented</note>
+        </trans-unit>
+        <trans-unit id="Page 830548598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Staging Purchase API</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseAPIMORAPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 929235096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Staging Purchase Line API</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseLineAPIMORAPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4208358505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Staging Purchase Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseLinesMORAPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4208358505 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The date-time at which the record was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseLinesMORAPI - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4208358505 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By whom the record was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseLinesMORAPI - Control SystemCreatedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4208358505 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unique GUID across all records throughout this environment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseLinesMORAPI - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4208358505 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The date-time at which the record was last modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseLinesMORAPI - Control SystemModifiedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4208358505 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By whom the record was last modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseLinesMORAPI - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3031356518 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Staging Purchase</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseMORAPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3031356518 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The date-time at which the record was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseMORAPI - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3031356518 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By whom the record was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseMORAPI - Control SystemCreatedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3031356518 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unique GUID across all records throughout this environment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseMORAPI - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3031356518 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The date-time at which the record was last modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseMORAPI - Control SystemModifiedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3031356518 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By whom the record was last modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseMORAPI - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3031356518 - Action 788258546 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancels integration of purchase record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseMORAPI - Action Cancel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3031356518 - Action 2675496269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processes purchase record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseMORAPI - Action Process - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3031356518 - Action 366713437 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows integrated purchase record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchaseMORAPI - Action Show - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1675929427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Staging Purchases</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchasesMORAPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1675929427 - Control 577209412 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The date-time at which the record was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchasesMORAPI - Control SystemCreatedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1675929427 - Control 4000648066 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By whom the record was created.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchasesMORAPI - Control SystemCreatedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1675929427 - Control 1367528460 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unique GUID across all records throughout this environment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchasesMORAPI - Control SystemId - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1675929427 - Control 2453272523 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The date-time at which the record was last modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchasesMORAPI - Control SystemModifiedAt - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1675929427 - Control 4085837753 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By whom the record was last modified.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchasesMORAPI - Control SystemModifiedBy - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1675929427 - Action 788258546 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancels integration of purchase record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchasesMORAPI - Action Cancel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1675929427 - Action 2675496269 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processes purchase record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchasesMORAPI - Action Process - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1675929427 - Action 366713437 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows integrated purchase record.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page StagingPurchasesMORAPI - Action Show - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1421107416 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor API</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page VendorAPIMORAPI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PermissionSet 3295143375 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Admin (BC API Demo)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet BCAPIDemoAdminMORAPI - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,28 @@
+{
+  "id": "04c7fa87-dc4a-490c-8e5b-69146fb7ae90",
+  "name": "BC API Demo",
+  "publisher": "Morcadium LLC",
+  "version": "28.1.0.0",
+  "description": "Demonstration of advanced API's for D365BC.",
+  "url": "https://www.morcadium.com",
+  "logo": "./logo/MorcadiumLLC.png",
+  "platform": "28.0.0.0",
+  "application": "28.1.0.0",
+  "idRanges": [
+    {
+      "from": 70000,
+      "to": 70100
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "17.0",
+  "features": [
+    "NoImplicitWith",
+    "NoPromotedActionProperties",
+    "TranslationFile"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+    "name":"PTE Rules",
+    "description":"Rules associated with this Customizaiton.",
+    "rules":
+    [
+        {
+            "id":"AA0072",
+            "action":"none"
+        },
+        {
+            "id":"AA0073",
+            "action":"none"
+        },
+        {
+            "id":"AA0074",
+            "action":"none"
+        },
+        {
+            "id":"AA0205",
+            "action":"none"
+        },
+        {
+            "id":"AA0215",
+            "action":"none"
+        },
+        {
+            "id":"AA0470",
+            "action":"none"
+        },
+        {
+            "id":"AL0606",
+            "action":"error"
+        },
+        {
+            "id":"AS0051",
+            "action":"none"
+        },
+        {
+            "id":"AS0084",
+            "action":"none"
+        },
+        {
+            "id":"AS0092",
+            "action":"none"
+        },
+        {
+            "id":"AW0006",
+            "action":"error"
+        }
+    ]
+}

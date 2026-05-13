@@ -1,0 +1,391 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: BC API
+meta:
+  id: wrk_2a159b11286a4015afd91bc593bdb4d2
+  created: 1778538696463
+  modified: 1778538734458
+  description: ""
+collection:
+  - name: D365BC API
+    meta:
+      id: fld_ae6f6f689887473eb0d15906f9af1ed4
+      created: 1778540278512
+      modified: 1778691478296
+      sortKey: -1778540278512
+      description: ""
+    children:
+      - url: https://api.businesscentral.dynamics.com/v2.0/{{ _.d365BCTenantId }}/{{
+          _.d365BCEnvironmentName }}/api/morcadium/purchasing/v2.0/companies
+        name: GET Companies
+        meta:
+          id: req_82ee5e26427249b1b446bdc232f7aad0
+          created: 1778540308340
+          modified: 1778618790755
+          isPrivate: false
+          description: ""
+          sortKey: -1778615716283
+        method: GET
+        parameters:
+          - name: $filter
+            value: name eq  '{{ _.d365BCCompanyName }}'
+            description: ""
+            disabled: false
+        headers:
+          - name: User-Agent
+            value: insomnia/12.5.0
+            description: ""
+            disabled: false
+        scripts:
+          afterResponse: |-
+            // 1. Get the JSON response body
+            const jsonBody = insomnia.response.json();
+
+            // 2. Set the environment variable
+            insomnia.environment.set("d365BCCompanyId", jsonBody.value[0].id);
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - name: Purchasing
+        meta:
+          id: fld_ff2929e1d1f343e6b108146fac7b0b41
+          created: 1778615716183
+          modified: 1778690963280
+          sortKey: -1778615716183
+          description: ""
+        children:
+          - url: https://api.businesscentral.dynamics.com/v2.0/{{ _.d365BCTenantId }}/{{
+              _.d365BCEnvironmentName
+              }}/api/morcadium/purchasing/v2.0/companies({{ _.d365BCCompanyId
+              }})/vendors
+            name: GET Vendors
+            meta:
+              id: req_047e3f2210154b92870f97276fb79a09
+              created: 1778615732655
+              modified: 1778619595603
+              isPrivate: false
+              description: ""
+              sortKey: -1778615732655
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://api.businesscentral.dynamics.com/v2.0/{{ _.d365BCTenantId }}/{{
+              _.d365BCEnvironmentName
+              }}/api/morcadium/purchasing/v2.0/companies({{ _.d365BCCompanyId
+              }})/vendors
+            name: POST Vendor
+            meta:
+              id: req_43ee3ed2c8b64676b94525a36ac19e87
+              created: 1778619609514
+              modified: 1778629876122
+              isPrivate: false
+              description: ""
+              sortKey: -1778615724469
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"name": "Morcadium, LLC5",
+                	"email": "info@morcadium.com",
+                	"city": "Denver",
+                	"county": "CO",
+                	"countryRegionCode": "US"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+            scripts:
+              afterResponse: |-
+                // 1. Get the JSON response body
+                const jsonBody = insomnia.response.json();
+
+                // 2. Set the environment variable
+                insomnia.environment.set("d365BCVendorNo", jsonBody.no);
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://api.businesscentral.dynamics.com/v2.0/{{ _.d365BCTenantId }}/{{
+              _.d365BCEnvironmentName
+              }}/api/morcadium/purchasing/v2.0/companies({{ _.d365BCCompanyId
+              }})/vendors(' {{ _.d365BCVendorNo }}')
+            name: PATCH Vendor
+            meta:
+              id: req_bf5bea70b0954bd9bd4160287c99c5b0
+              created: 1778625558699
+              modified: 1778659537722
+              isPrivate: false
+              description: ""
+              sortKey: -1778615720376
+            method: PATCH
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"name": "Morcadium, LLC"
+                }
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+              - name: If-Match
+                value: "*"
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://api.businesscentral.dynamics.com/v2.0/{{ _.d365BCTenantId }}/{{
+              _.d365BCEnvironmentName
+              }}/api/morcadium/purchasing/v2.0/companies({{ _.d365BCCompanyId
+              }})/purchases
+            name: GET Purchases
+            meta:
+              id: req_d35fdcbead6644ddbfaaf1fdf0e489c1
+              created: 1778627288610
+              modified: 1778627665338
+              isPrivate: false
+              description: ""
+              sortKey: -1778615720276
+            method: GET
+            headers:
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://api.businesscentral.dynamics.com/v2.0/{{ _.d365BCTenantId }}/{{
+              _.d365BCEnvironmentName
+              }}/api/morcadium/purchasing/v2.0/companies({{ _.d365BCCompanyId
+              }})/stagingPurchases
+            name: POST Staging Purchase
+            meta:
+              id: req_5362c611a8084829bdec801c4c6394c1
+              created: 1778627662493
+              modified: 1778659575193
+              isPrivate: false
+              description: ""
+              sortKey: -1778615718279.5
+            method: POST
+            body:
+              mimeType: application/json
+              text: |-
+                {
+                	"documentType": "Invoice",
+                	"buyFromVendorNo": "{{ _.d365BCVendorNo }}",
+                	"vendorInvoiceNo": "260513001",
+                	"documentDate":"2026-05-13",
+                	"locationCode": "MAIN",
+                	"total": 1775.43,
+                	"stagingPurchaseLines":
+                	[
+                		{
+                			"type": "Item",
+                			"no": "1896-S",
+                			"quantity": 3,
+                			"lineAmount":1725.32
+                		},
+                		{
+                			"type": "Item",
+                			"no": "1900-S",
+                			"quantity": 1,
+                			"directUnitCost":50.11
+                		}
+                	]
+                }
+            parameters:
+              - name: $expand
+                value: stagingPurchaseLines
+                description: ""
+                disabled: false
+            headers:
+              - name: Content-Type
+                value: application/json
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://api.businesscentral.dynamics.com/v2.0/{{ _.d365BCTenantId }}/{{
+              _.d365BCEnvironmentName
+              }}/api/morcadium/purchasing/v2.0/companies({{ _.d365BCCompanyId
+              }})/stagingPurchases
+            name: GET Staging Purchases
+            meta:
+              id: req_717a6186d01b40e7a45a3ce231d99d31
+              created: 1778629432990
+              modified: 1778629524915
+              isPrivate: false
+              description: ""
+              sortKey: -1778615719277.75
+            method: GET
+            parameters:
+              - name: $expand
+                value: stagingPurchaseLines
+                description: ""
+                disabled: false
+            headers:
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://api.businesscentral.dynamics.com/v2.0/{{ _.d365BCTenantId }}/{{
+              _.d365BCEnvironmentName
+              }}/api/morcadium/purchasing/v2.0/companies({{ _.d365BCCompanyId
+              }})/vendors(' {{ _.d365BCVendorNo }}')/Microsoft.NAV.Block
+            name: POST Vendor - Block
+            meta:
+              id: req_118523a3afa04851a98002e77397c784
+              created: 1778690929906
+              modified: 1778691694198
+              isPrivate: false
+              description: ""
+              sortKey: -1778615720326
+            method: POST
+            headers:
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+          - url: https://api.businesscentral.dynamics.com/v2.0/{{ _.d365BCTenantId }}/{{
+              _.d365BCEnvironmentName
+              }}/api/morcadium/purchasing/v2.0/companies({{ _.d365BCCompanyId
+              }})/vendors(' {{ _.d365BCVendorNo }}')/Microsoft.NAV.Unblock
+            name: POST Vendor - Unblock
+            meta:
+              id: req_9373fafe9df94553ba8fb77ecc1aa912
+              created: 1778691690935
+              modified: 1778691713079
+              isPrivate: false
+              description: ""
+              sortKey: -1778615720301
+            method: POST
+            headers:
+              - name: User-Agent
+                value: insomnia/12.5.0
+                description: ""
+                disabled: false
+            settings:
+              renderRequestBody: true
+              encodeUrl: true
+              followRedirects: global
+              cookies:
+                send: true
+                store: true
+              rebuildPath: true
+    authentication:
+      type: oauth2
+      grantType: client_credentials
+      accessTokenUrl: https://login.microsoftonline.com/{{ _.d365BCTenantId
+        }}/oauth2/v2.0/token
+      authorizationUrl: ""
+      clientId: "{{ _.clientID }}"
+      clientSecret: "{{ _.clientSecret }}"
+      scope: https://api.businesscentral.dynamics.com/.default
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_80dd20b095095c903b602117938fb67188b660c0
+    created: 1778538696481
+    modified: 1778691478293
+  cookies:
+    - id: c8541a5c-a838-4078-b515-0d3c4df6b0ad
+      key: fpc
+      value: ApXBhwz4nlxGoFlNuQf4oVyMojcsAQAAACY4luEOAAAA
+      domain: login.microsoftonline.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+    - id: 0301380e-56c9-4b2b-884c-e389a4d5bdd5
+      key: x-ms-gateway-slice
+      value: estsfd
+      domain: login.microsoftonline.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+    - id: d08488c6-918e-4e7f-82fd-443ca93ac538
+      key: stsservicecookie
+      value: estsfd
+      domain: login.microsoftonline.com
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+environments:
+  name: Base Environment
+  meta:
+    id: env_80dd20b095095c903b602117938fb67188b660c0
+    created: 1778538696477
+    modified: 1778691478295
+    isPrivate: false
+  data:
+    clientID: 37f4f750-be71-40b6-ba79-89fa89d1c74d
+    clientSecret: Vca8Q~FcJ4mw4aFbdB1UmDVN1xSp5poujPJ-4c_Z
+    d365BCCompanyName: CRONUS
+    d365BCEnvironmentName: DEV
+    d365BCTenantId: 771fb8b3-b238-459d-933c-244b21211c45
